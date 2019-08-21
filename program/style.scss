@@ -1,0 +1,225 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+h2,h5,h6{
+  margin: 0;
+}
+
+.pt-4{
+  padding-top: 2rem;
+}
+
+.pt-5{
+  padding-top: 3rem;
+}
+
+.pt-6{
+  padding-top: 4rem;
+}
+
+.program-title{
+  font-size: 18px;
+  line-height: 1.56;
+  text-align: center;
+  font-weight: normal;
+  position: relative;
+  &.gray{
+    color: #333333;
+  }
+  &.white{
+    color: #ffffff;
+  }
+}
+
+.card{
+  width: 316px;
+  height: 147px;
+  border-radius: 12px;
+  box-shadow: 0 2px 11px 0 rgba(170, 170, 170, 0.5);
+  background-color: #ffffff;
+  position: relative;
+  margin: 0 auto;
+  z-index: 1;
+  margin-top: -10px;
+  .card-leaf{
+    position: absolute;
+    left: 50%;
+    top: 18px;
+    transform: translateX(-50%);
+    background: url("https://image.okaydoctor.co.kr/image/img-mp-leaf@2x.png");
+    background-size: 100% 100%;
+    width: 212px;
+    height: 52px;
+    .card-leaf-title{
+      font-size: 15px;
+      line-height: 1.47;
+      font-weight: normal;
+      color: #ae9e83;
+      text-align: center;
+      margin-top: 5px;
+    }
+  }
+  .card-leaf-text{
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 8px;
+    font-weight: normal;
+    line-height: 1.44;
+    text-align: center;
+    color: #a4a4a4;
+    margin-top: 13px;
+    width: 90%;
+  }
+}
+
+.program-wrap{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  padding: 0;
+
+  .program-section1{
+    height: 780px;
+    background-color: #fcfcfc;
+    position: relative;
+    .program-process{
+      text-align: center;
+      background: url("https://image.okaydoctor.co.kr/image/img-p-program@2x.png") no-repeat;
+      background-size: 100% 100%;
+      width: 305px;
+      height: 400px;
+      margin: 40px auto;
+      position: relative;
+      z-index: 2;
+      img{
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+    .program-graph{
+      position: absolute;
+      bottom: 208px;
+      right: 50%;
+      transform: translateX(-50%);
+      margin-right: -272px;
+      background: url("https://image.okaydoctor.co.kr/image/img-m-briefing@2x.png");
+      background-size: 100% 100%;
+      width: 183px;
+      height: 120px;
+      z-index: 1;
+    }
+  }
+
+  .program-section2{
+    height: 981px;
+    background-color: #493fa2;
+    position: relative;
+    overflow: hidden;
+    .program-section2-bg{
+      position: absolute;
+      top: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-left: 105px;
+      background: url("https://image.okaydoctor.co.kr/image/img-mp-deco@2x.png");
+      background-size: 100% 100%;
+      width: 617px;
+      height: 966px;
+    }
+
+    .program-section2-slide{
+      width: 246px;
+      height: 454px;
+      margin: 87px auto 0;
+      position: relative;
+      img{
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+
+    .program-section2-copybox{
+      width: 308px;
+      height: 183px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px 0 #3b327f;
+      background-color: #7e76cd;
+      margin: 0 auto;
+      text-align: left;
+      position: absolute;
+      bottom: 74px;
+      left: 50%;
+      transform: translateX(-50%);
+      h6{
+        font-size: 13px;
+        line-height: 1.85;
+        color: #e7e7e7;
+        font-weight: normal;
+        padding: 30px;
+      }
+    }
+  }
+
+  .program-section3{
+    height: 814px;
+    background-color: #f3efe8;
+    position: relative;
+
+    .program-section3-slide{
+      width: 314px;
+      height: 314px;
+      margin-top: 48px;
+      margin: 100px auto 29px auto;
+      img{
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+
+    .program-section3-copybox{
+      width: 326px;
+      height: 150px;
+      border-radius: 11px;
+      box-shadow: 0 2px 10px 0 #d8d8d8;
+      background-color: #fffbf4;
+      position: absolute;
+      bottom: 104px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: left;
+      margin: 0 auto;
+      h6{
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 1.85;
+        color: #666666;
+        padding: 30px;
+      }
+    }
+
+    .program-go-easypen{
+      position: absolute;
+      bottom: 30px;
+      right: 50%;
+      transform: translateX(-50%);
+      margin-right: -280px;
+      h6{
+        width: 241px;
+        height: 19px;
+        font-size: 15px;
+        font-weight: normal;
+        color: #666666;
+      }
+      .easypen{
+        color: #6439fd;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+    }
+  }
+}

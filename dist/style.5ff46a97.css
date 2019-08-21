@@ -1,0 +1,128 @@
+body {
+  padding: 0;
+  margin: 0; }
+
+h2, h5, h6 {
+  margin: 0; }
+
+.pt-4 {
+  padding-top: 2rem; }
+
+.pt-5 {
+  padding-top: 3rem; }
+
+.pt-6 {
+  padding-top: 4rem; }
+
+.main-title {
+  font-size: 18px;
+  line-height: 1.56;
+  text-align: center;
+  font-weight: normal;
+  position: relative; }
+  .main-title.gray {
+    color: #333333; }
+  .main-title.white {
+    color: #ffffff; }
+
+.main-subtitle {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.75;
+  text-align: center;
+  color: #a8a1ec;
+  margin-top: 45px;
+  margin-bottom: 48px;
+  position: relative; }
+  .main-subtitle .dot {
+    color: #fff; }
+    .main-subtitle .dot:nth-child(2)::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-left: 37px;
+      border-radius: 3px;
+      top: -3px;
+      width: 3px;
+      height: 3px;
+      background-color: #fff; }
+    .main-subtitle .dot::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-left: 20px;
+      border-radius: 3px;
+      top: -3px;
+      width: 3px;
+      height: 3px;
+      background-color: #fff; }
+
+.detail-wrap {
+  width: 100%;
+  height: 100vh;
+  background-color: #493fa2;
+  position: relative; }
+  .detail-wrap .detail-wrap-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 308px;
+    height: 440px;
+    border-radius: 14px;
+    background-color: #ffffff; }
+    .detail-wrap .detail-wrap-box.he-580 {
+      height: 570px; }
+    .detail-wrap .detail-wrap-box .detail-title {
+      position: absolute;
+      top: 20px;
+      left: 24px; }
+      .detail-wrap .detail-wrap-box .detail-title h2 {
+        font-size: 15px;
+        font-weight: normal;
+        color: #333333; }
+    .detail-wrap .detail-wrap-box .detail-contents {
+      padding: 16px 0 24px 24px;
+      margin-top: 29px; }
+      .detail-wrap .detail-wrap-box .detail-contents .detail-subtitle {
+        margin: 0 auto;
+        text-align: left; }
+        .detail-wrap .detail-wrap-box .detail-contents .detail-subtitle h3 {
+          font-size: 13px;
+          color: #333333;
+          font-weight: normal; }
+      .detail-wrap .detail-wrap-box .detail-contents .detail-text {
+        margin: 0 auto; }
+        .detail-wrap .detail-wrap-box .detail-contents .detail-text .detail-text-list {
+          list-style: none;
+          font-size: 10px;
+          color: #666666;
+          margin: 0;
+          padding: 0; }
+          .detail-wrap .detail-wrap-box .detail-contents .detail-text .detail-text-list .list {
+            width: 100%;
+            padding-bottom: 8px;
+            display: flex;
+            display: -ms-flexbox; }
+            .detail-wrap .detail-wrap-box .detail-contents .detail-text .detail-text-list .list.pb-21 {
+              padding-bottom: 21px; }
+            .detail-wrap .detail-wrap-box .detail-contents .detail-text .detail-text-list .list .title {
+              width: 60px;
+              display: inline-block;
+              padding-right: 31px; }
+            .detail-wrap .detail-wrap-box .detail-contents .detail-text .detail-text-list .list .text {
+              width: 157px;
+              display: inline-block; }
+  .detail-wrap .close {
+    position: absolute;
+    background: url("https://image.okaydoctor.co.kr/image/ic-m-close@2x.png") no-repeat;
+    top: 20px;
+    right: 20px;
+    width: 18px;
+    height: 18px;
+    background-size: 100% 100%; }
+
+
+/*# sourceMappingURL=/style.5ff46a97.css.map */

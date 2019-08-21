@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8; }
+
+h5 {
+  margin: 0;
+  padding: 0; }
+
+.appdown_section {
+  position: relative;
+  height: 100%;
+  width: 100%; }
+  .appdown_section .appdown_wrap {
+    margin: 0 auto;
+    text-align: center; }
+    .appdown_section .appdown_wrap .doctor_logo {
+      margin-top: 56px;
+      width: 61px;
+      height: 55px;
+      background: url("https://image.okaydoctor.co.kr/image/img-appdown.png") -354px -10px;
+      position: relative;
+      display: inline-block; }
+    .appdown_section .appdown_wrap .doctor_title {
+      position: relative;
+      padding-top: 13px;
+      font-size: 16px;
+      color: #666666;
+      line-height: 1.46;
+      font-weight: normal; }
+      .appdown_section .appdown_wrap .doctor_title .doctor_color {
+        color: #312a75;
+        font-weight: bold; }
+    .appdown_section .appdown_wrap .doctor_main {
+      margin: 0 auto;
+      width: 324px;
+      height: 306px;
+      background: url("https://image.okaydoctor.co.kr/image/img-appdown.png") -10px -10px;
+      margin-top: 48px;
+      margin-bottom: 69px; }
+    .appdown_section .appdown_wrap .doctor_btn {
+      width: 217px;
+      height: 41px;
+      border-radius: 20.5px;
+      box-shadow: 0 2px 4px 0 rgba(135, 135, 135, 0.5);
+      background-color: #312a75;
+      margin: 0 auto;
+      margin-bottom: 47px; }
+      .appdown_section .appdown_wrap .doctor_btn a {
+        text-decoration: none;
+        color: #fff;
+        line-height: 41px; }
+
+
+/*# sourceMappingURL=/style.514e377f.css.map */
